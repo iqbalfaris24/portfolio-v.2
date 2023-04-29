@@ -7,7 +7,7 @@ use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes by Laravel
+| Web Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
