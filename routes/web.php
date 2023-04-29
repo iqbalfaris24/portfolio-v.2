@@ -23,7 +23,7 @@ Route::get('/', function () {
 Route::get('/', 'App\Http\Controllers\ContactController@index');
 Route::post('/create', 'App\Http\Controllers\ContactController@create');
 
-Route::get('/pesan', 'App\Http\Controllers\ContactController@view')->middleware('auth');
+Route::get('pesan', 'App\Http\Controllers\ContactController@view')->middleware('auth');
 Route::get('/pesan/delete/{id}', 'App\Http\Controllers\ContactController@delete');
 Route::get('login', [LoginController::class, 'login'])->name('login');
 Route::post('/loginuser', 'App\Http\Controllers\LoginController@loginuser');
