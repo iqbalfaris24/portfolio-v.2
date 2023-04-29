@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <link rel="icon" type="img" href="img/gambar.png">
     <title>Login</title>
     <meta charset="utf-8">
     <title>Iqbal Faris Akbar</title>
@@ -14,7 +13,7 @@
         @csrf
         <div id="loginbox">
             <div class="container">
-                <a href="/"><img src="img/IP V3.jpg" width="60px" height="60px"></a>
+                <a href="/"><img src="img/IP V3.png" width="60px" height="60px"></a>
                 <h1>Login</h1>
 
                 <div class=" row mb-3 Rlogin">

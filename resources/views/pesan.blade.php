@@ -11,10 +11,10 @@
 
 </head>
 
-<body style="background: #525252;;">
+<body style="background: #525252;">
 
     @include('includes.navbarpesan')
-    <div class="container">
+    <div class="container" style="margin-top: 120px;  min-height:100vh;">
         @if (session('success'))
             <div class="alert alert-danger" role="alert">
                 Data Berhasil Dihapus!
