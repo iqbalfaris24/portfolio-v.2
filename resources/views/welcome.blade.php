@@ -14,7 +14,7 @@
 <body id="home">
     <!-- Open Navbar -->
     @include('includes.navbar')
-    <!-- CLose Navbar -->
+    <!-- CCLose Navbar -->
 
     <!-- Open Jumbotron -->
     @include('includes.jumbotron')
