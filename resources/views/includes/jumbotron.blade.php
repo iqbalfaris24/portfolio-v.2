@@ -1,7 +1,7 @@
 <section id="about">
     <div class="jumbotron">
         <div class="container">
-            <div class="">
+            <div>
                 <img src="img/Fotpro.png" />
             </div>
             <div class="detailed-text text-center" width="500px">
