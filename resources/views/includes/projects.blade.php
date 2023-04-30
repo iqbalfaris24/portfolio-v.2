@@ -60,7 +60,7 @@
                              <b>bootstrap</b>,<b>SASS</b> & <b>laravel</b>
                          </p>
                      </div>
-                     <a href="https://iqbalfaris24.github.io/Store/" target="_blank"
+                     <a href="https://ipcreative.tech" target="_blank"
                          class="btn btn-primary d-flex justify-content-center">Visit Project</a>
                  </div>
 
