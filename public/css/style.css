@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     color: white;
     background-color: #525252;
-    background-image: url(../img/bg3.jpg);
+    background-image: url(../img/bg3.jpeg);
     background-attachment: fixed;
     background-size: cover;
     position: relative;
@@ -111,6 +111,9 @@ nav {
     min-height: 100vh;
     display: flex;
 }
+/* #about {
+    backdrop-filter: blur(3px);
+} */
 
 .jumbotron .container {
     display: flex;
@@ -252,15 +255,14 @@ svg {
 
 /* Contact CSS */
 #contact {
-    padding-top: 20px;
     background-color: rgb(19, 19, 19);
+    padding-top: 140px;
     align-items: center;
     padding-bottom: 250px;
 }
 
 #contact h1 {
     text-align: center;
-    padding-top: 150px;
     margin-bottom: 40px;
 }
 
@@ -357,7 +359,7 @@ footer a:hover {
 
 /* Penutup Contact CSS */
 
-@media screen and (min-width: 576px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     #about {
         margin-top: -80px;
     }
@@ -366,6 +368,9 @@ footer a:hover {
 @media screen and (max-width: 991px) {
     .jumbotron h1 {
         font-size: 2.5rem;
+    }
+    #contact {
+        padding-top: 55px;
     }
 }
 
@@ -426,9 +431,9 @@ footer a:hover {
     }
 
     /* 
-  #about {
+#about {
     margin-top: -50px;
-  } */
+} */
 
     .nav-side {
         visibility: visible;
@@ -551,11 +556,13 @@ footer a:hover {
     .active .link-nav span {
         color: #447fff;
     }
-
     .jumbotron {
-        margin-top: -30px;
+        padding-top: 100px;
     }
 
+    .project {
+        margin-top: 0px;
+    }
     footer {
         margin-bottom: 50px;
     }
